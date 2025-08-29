@@ -91,24 +91,29 @@ body {
 
 h1 {
     font-size: 3em;
-    padding: 30px 0 10px 0;
+    padding: 30px 0 13px 0;
 }
 
 h2 {
     font-size: 2em;
-    padding: 12px 0 0 15px;
+    text-align: left;
+    padding: 15px 0 0 15px;
 }
 
 h3 {
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 900;
+    text-align: left;
     color: var(--yellow);
-    padding: 5px 0 0 15px;
+    padding: 0 0 0 15px;
 }
 
 h4 {
     font-size: 1.15em;
+    text-align: left;
     color: var(--purple);
+    font-weight: bold;
+    padding-bottom: 1px;
 }
 
 h1, h2 {
@@ -123,7 +128,7 @@ header {
 header p {
     color: var(--white);
     font-style: italic;
-    margin-bottom: 42px;
+    margin-bottom: 44px;
 }
 
 nav {
@@ -136,8 +141,9 @@ nav h2 {
     font-family: var(--font-body);
     font-weight: bold;
     font-style: italic;
-    color: black;
-    padding: 0 0 10px 0;
+    text-align: center;
+    color: var(--dark-gray);
+    padding: 5px 0 13px 0;
     margin: 0;
 }
 
@@ -153,7 +159,42 @@ nav li a {
     text-decoration: none;
     text-align: center;
     padding: 15px;
-    font-weight: bold;
+    font-weight: 700;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section > h2 + h3 {
+    margin-top: -10px;
+}
+
+section article {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 12px 25px 25px 25px;
+    margin: 0 25px 0 25px;
+}
+
+article img {
+    padding: 13px 0 15px 0;
+}
+
+article h4 {
+    padding-bottom: 7px;
+}
+
+article p {
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+section > div {
+    background-color: var(--pink);
+    margin-top: 25px;
 }
 
 
