@@ -91,19 +91,19 @@ body {
 
 h1 {
     font-size: 3em;
-    color: var(--white);
     padding: 30px 0 10px 0;
 }
 
 h2 {
     font-size: 2em;
-    color: var(--white);
+    padding: 12px 0 0 15px;
 }
 
 h3 {
     font-size: 1.5em;
     font-weight: bold;
     color: var(--yellow);
+    padding: 5px 0 0 15px;
 }
 
 h4 {
@@ -113,6 +113,7 @@ h4 {
 
 h1, h2 {
     font-family: var(--font-header);
+    color: var(--white);
 }
 
 header {
@@ -155,6 +156,4 @@ nav li a {
     font-weight: bold;
 }
 
-article {
-    background-color: var(-white);
-}
+
