@@ -137,7 +137,7 @@ nav h2 {
     font-weight: bold;
     font-style: italic;
     color: black;
-    padding-bottom: 8px;
+    padding: 0 0 10px 0;
     margin: 0;
 }
 
