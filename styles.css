@@ -71,7 +71,7 @@ table {
 
 /* Fonts */
 --font-header: 'Kavoon', 'Arial', 'sans-serif';
---font-body: 'Inter', '', 'sans-serif';
+--font-body: 'Inter', 'Arial', 'sans-serif';
 
 }
 
@@ -85,7 +85,6 @@ body {
     background-color: var(--purple);
     max-width: 450px;
     margin: 0 auto;
-    padding: 0 20px;
     font-family: var(--font-body);
 }
 
@@ -93,6 +92,7 @@ body {
 h1 {
     font-size: 3em;
     color: var(--white);
+    padding: 30px 0 10px 0;
 }
 
 h2 {
@@ -115,8 +115,44 @@ h1, h2 {
     font-family: var(--font-header);
 }
 
+header {
+    text-align: center;
+}
+
+header p {
+    color: var(--white);
+    font-style: italic;
+    margin-bottom: 42px;
+}
+
+nav {
+    background-color: var(--yellow);
+    padding: 12px 25px 25px 25px;
+}
+
 nav h2 {
     font-size: 1.5em;
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav li a {
+    display: block;
+    background-color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
 }
 
 article {
