@@ -57,4 +57,33 @@ table {
 
 /* ROOT VARIABLES */
 
+:root {
+
+/* colors */
+
+--teal :#4CA7C0;
+--purple: #484FB7;
+--lavender: #6B8FE7;
+--yellow: #E9BB57; 
+--pink:#D9526F;
+--dark-gray:#1E1E1E; 
+--white:#ffffff;
+
+/* Fonts */
+--font-header: 'Kavoon', 'Arial', 'sans-serif';
+--font-body: 'Inter', '', 'sans-serif';
+
+}
+
 /* GLOBAL STYLES (mobile first/small) */
+
+body {
+    background-color: var(--lavender);
+}
+
+.container {
+    background-color: var(--purple);
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
