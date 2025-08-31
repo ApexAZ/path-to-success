@@ -256,9 +256,9 @@ table th {
 
 table td {
     background-color: var(--white);
-    border-bottom: 3px solid var(--yellow);
-    border-left: 3px solid var(--yellow);
-    border-right: 3px solid var(--yellow);
+    border-bottom: 2px solid var(--yellow);
+    border-left: 2px solid var(--yellow);
+    border-right: 2px solid var(--yellow);
     color: var(--dark-gray);
     font-weight: 600;
     padding: 15px 0;
@@ -267,4 +267,44 @@ table td {
 
 section:last-of-type {
     background-color: var(--pink);
+    margin-top: 10px;
+}
+
+section:last-of-type p {
+    color: var(--white);
+    padding: 0 15px 0 15px;
+    margin: -8px auto;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+section:last-of-type a {
+    background-color: var(--white);
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 23px 0;
+    margin: 0 38px 8px 38px;
+    box-shadow: 5px 5px 4px var(--dark-gray);
+}
+
+section:last-of-type a:hover {
+    box-shadow: 3px 3px 3px rgb(52, 52, 52);
+    color: var(--purple);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 25px;
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+    font-weight: 500;;
 }
