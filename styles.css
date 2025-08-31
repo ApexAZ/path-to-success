@@ -108,6 +108,7 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+    font-weight: 800;
     color: var(--purple);
 }
 
@@ -178,7 +179,7 @@ article img {
 }
 
 article h4 {
-    padding-bottom: 7px;
+    padding-bottom: 8px;
 }
 
 article p {
@@ -240,7 +241,7 @@ article p {
 }
 
 section > table {
-    margin: 0 90px;
+    margin: 0 100px;
     background-color: var(--yellow);
 }
 
@@ -249,7 +250,7 @@ h3 + table {
 }
 
 table th {
-    padding: 15px;
+    padding: 17px 15px;
     font-weight: 700;
 }
 
@@ -259,7 +260,7 @@ table td {
     border-left: 3px solid var(--yellow);
     border-right: 3px solid var(--yellow);
     color: var(--dark-gray);
-    font-weight: 500;
-    padding: 16px;
+    font-weight: 600;
+    padding: 15px 0;
     text-align: center;
 }
