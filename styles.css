@@ -82,13 +82,10 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     background-color: var(--purple);
+    font-family: var(--font-body);
     max-width: 450px;
     margin: 0 auto;
-    font-family: var(--font-body);
 }
 
 
@@ -99,14 +96,14 @@ h1 {
 
 h2 {
     font-size: 2em;
-    padding: 12px 0 0 15px;
+    padding: 15px 0 0 15px;
 }
 
 h3 {
     font-size: 1.5em;
     font-weight: bold;
     color: var(--yellow);
-    padding: 5px 0 0 15px;
+    padding: 0 0 0 15px;
 }
 
 h4 {
@@ -205,37 +202,64 @@ article p {
 #choose li:nth-child(1) {
     background-color: var(--teal);
     color: var(--dark-gray);
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 800;
     text-align: center;
-    padding: 35px;
+    padding: 40px 25px;
     border-radius: 15px;
 }
 
 #choose li:nth-child(2) {
     background-color: var(--lavender);
     color: var(--dark-gray);
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 800;
     text-align: center;
-    padding: 35px;
+    padding: 40px 25px;
     border-radius: 15px;
 }
 
 #choose li:nth-child(3) {
     background-color: var(--yellow);
     color: var(--dark-gray);
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 800;
     text-align: center;
-    padding: 35px;
+    padding: 40px 25px;
     border-radius: 15px;
 }
 
 #choose li:nth-child(4) {
     background-color: var(--white);
     color: var(--dark-gray);
-    font-weight: 700;
+    font-size: 1.2em;
+    font-weight: 800;
     text-align: center;
-    padding: 35px;
+    padding: 40px 25px;
     border-radius: 15px;
 }
 
+section > table {
+    margin: 0 90px;
+    background-color: var(--yellow);
+}
 
+h3 + table {
+    margin-top: -5px;
+}
+
+table th {
+    padding: 15px;
+    font-weight: 700;
+}
+
+table td {
+    background-color: var(--white);
+    border-bottom: 3px solid var(--yellow);
+    border-left: 3px solid var(--yellow);
+    border-right: 3px solid var(--yellow);
+    color: var(--dark-gray);
+    font-weight: 500;
+    padding: 16px;
+    text-align: center;
+}
