@@ -156,7 +156,6 @@ nav li a {
     text-decoration: none;
     text-align: center;
     padding: 15px;
-<<<<<<< HEAD
     font-weight: 700;
 }
 
@@ -193,9 +192,7 @@ article p {
 #choose {
     background-color: var(--pink);
     margin-top: 25px;
-=======
     font-weight: bold;
->>>>>>> parent of 90ce088 (Update styles.css)
 }
 
 #choose ul {
